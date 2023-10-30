@@ -1,15 +1,7 @@
 # IPC Workshop 2023 Clean Code like a Pro
 
-## dev env
-
-// derived from Repo [IshtarStar/docker-compose-nginx-phpfpm-xdebug-mariadb](https://github.com/IshtarStar/docker-compose-nginx-phpfpm-xdebug-mariadb)
-
-![docker](https://img.shields.io/badge/Docker-compose-brightgreen.svg)
-![php](https://img.shields.io/badge/PHP_FPM-8.2.11-brightgreen.svg)
-![xdebug](https://img.shields.io/badge/Xdebug-3.2.2-brightgreen.svg)
-![nginx](https://img.shields.io/badge/nginx-1.25.2-brightgreen.svg)
-<!--![redis](https://img.shields.io/badge/Redis-7.2.1-brightgreen.svg)-->
-<!--![mariadb](https://img.shields.io/badge/MariaDB-11.1.2-brightgreen.svg)-->
+Task:
+https://codingdojo.org/kata/birthday-greetings/
 
 ## Dev Tools
 
@@ -49,3 +41,14 @@ tools/phpab -o src/autoload.inc.php src
 ```
 
 (This may work outside the container as well, if a php runtime is present.)
+
+### Docker Stack
+
+// derived from Repo [IshtarStar/docker-compose-nginx-phpfpm-xdebug-mariadb](https://github.com/IshtarStar/docker-compose-nginx-phpfpm-xdebug-mariadb)
+
+TODO: replace with `webdevops/php-dev` ([Documentation], [DockerHub], [GitHub], [example Docker file][example])
+
+[documentation]: https://webdevops.gitbook.io/dockerfile
+[dockerhub]: https://hub.docker.com/r/webdevops/php-dev/tags
+[github]: https://github.com/webdevops/Dockerfile
+[example]: https://github.com/codenamephp/neos.googleSecretsManager/blob/release/docker/application/Dockerfile
