@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace src;
+namespace App\Entity;
 
-use src\FriendEntity as Friend;
+use App\Entity\FriendEntity as Friend;
 
 readonly class FriendsCollection
 {

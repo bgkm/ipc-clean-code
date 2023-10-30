@@ -1,6 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace src;
+namespace App\Service;
+
+use App\Entity\FriendsCollection;
 
 interface FriendLoaderInterface
 {

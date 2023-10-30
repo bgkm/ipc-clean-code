@@ -1,11 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace src;
+namespace App\Service;
 
-require_once 'Birthday.php';
-require_once 'FriendLoaderInterface.php';
-require_once 'FriendEntity.php';
-require_once 'FriendsCollection.php';
+use App\Entity\FriendEntity;
+use App\Entity\FriendsCollection;
 
 class FriendLoaderFromCsv implements FriendLoaderInterface
 {
